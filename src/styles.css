@@ -61,3 +61,14 @@ li a{
 li a:hover {
     background-color: green;
   }
+
+#footer{
+    background-color: rgb(202, 199, 199);
+    text-align:right;
+    margin:0px;
+    padding:0px;
+}
+#footer p{
+    margin:0px;
+    padding:2%;
+}
