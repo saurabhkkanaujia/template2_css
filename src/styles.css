@@ -10,11 +10,37 @@ ul{
     padding-inline-start: 0px;
     margin-bottom:0px;
 }
+
 #header h1{
     background-color: rgb(216, 213, 213);
     padding:20px;
     margin-bottom:0px;
 }
+#content {
+  float:left;
+  width:70%;  
+  overflow:auto;
+  padding:1%;
+}
+.blue_heading{
+    color: blue;
+}
+#main{
+    display:flex;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+}
+#sidebar{
+    padding-top:0px;
+    float:right;
+    width:29%;
+    background:rgb(216, 213, 213);
+    padding:15px;
+padding-bottom:20%;
+margin-right:0px;
+}
+
 li{
  
     float:left;
@@ -23,11 +49,10 @@ li{
 
 li a{
     text-decoration:none;
-    font-weight: 700;
     display:block;
     color:white;
     text-align:center;
-    padding: 10px;  
+    padding: 7px;  
     border-right-style: solid;
     border-right-color:white;
     border-width:1px;
@@ -35,4 +60,4 @@ li a{
 
 li a:hover {
     background-color: green;
-}
+  }
